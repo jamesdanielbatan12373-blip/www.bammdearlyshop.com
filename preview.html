@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Special Flower For You 🌷</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <audio id="bgMusic" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="particles"></div>
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="home">
+
+        <div class="teddy">🧸</div>
+
+        <p class="eyebrow">A LITTLE SURPRISE FOR SOMEONE SPECIAL</p>
+
+        <h1>Hey, Beautiful! <span>♡</span></h1>
+
+        <p class="description">
+            I have something special to show you.
+            I hope this makes you smile.
+        </p>
+
+        <div class="mini-bouquet">💐 🌷 🌸</div>
+
+        <button class="pink-button" data-page="garden">
+            START YOUR SURPRISE 💗
+        </button>
+
+        <p class="small-note">A little website made just for you.</p>
+
+    </section>
+
+
+    <!-- PAGE 2: FLOWER GARDEN -->
+    <section class="page" id="garden">
+
+        <p class="eyebrow">A FLOWER FOR YOU</p>
+
+        <h1 class="script-title">Something beautiful...</h1>
+
+        <p class="description">
+            Every flower has a story.
+            Let me grow one just for you.
+        </p>
+
+        <div class="flower-stage">
+
+            <div class="ground"></div>
+
+            <div class="flower" id="flower">
+
+                <div class="stem"></div>
+
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+
+                <div class="bloom">
+
+                    <div class="petal p1"></div>
+                    <div class="petal p2"></div>
+                    <div class="petal p3"></div>
+                    <div class="petal p4"></div>
+                    <div class="petal p5"></div>
+                    <div class="petal p6"></div>
+                    <div class="center"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="pink-button" id="growButton">
+            🌱 CLICK ME
+        </button>
+
+        <p id="flowerMessage" class="flower-message">
+            Click the button and watch something beautiful grow.
+        </p>
+
+        <button class="text-button" data-page="letter">
+            Continue to my letter →
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 3: LOVE LETTER -->
+    <section class="page" id="letter">
+
+        <div class="letter-card">
+
+            <div class="teddy-small">🧸💗</div>
+
+            <p class="eyebrow">A MESSAGE FROM MY HEART</p>
+
+            <h1 class="script-title">Dear You,</h1>
+
+            <div id="loveMessage" class="love-message"></div>
+
+            <div class="signature">
+                With love, ❤️
+                <br>
+                <span id="senderName">Someone who admires you</span>
+            </div>
+
+            <button class="pink-button" data-page="question">
+                ONE LAST QUESTION 💌
+            </button>
+
+            <button class="text-button" data-page="garden">
+                ← Back to the flower
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 4: QUESTION -->
+    <section class="page" id="question">
+
+        <div class="teddy">🧸🌹</div>
+
+        <p class="eyebrow">BEFORE YOU GO...</p>
+
+        <h1 class="script-title">Can I ask you something?</h1>
+
+        <p class="question-text">
+            Would you give me a chance to get to know you more?
+        </p>
+
+        <div class="answer-buttons">
+
+            <button class="yes-button" data-page="yes">
+                YES! 💗
+            </button>
+
+            <button class="no-button" data-page="no">
+                NO 🥺
+            </button>
+
+        </div>
+
+        <p class="small-note">
+            Whatever your answer is, I'll respect it.
+        </p>
+
+    </section>
+
+
+    <!-- PAGE 5: YES -->
+    <section class="page" id="yes">
+
+        <div class="teddy big-teddy">🧸💐</div>
+
+        <h1 class="script-title">You made my day!</h1>
+
+        <div class="bouquet">💐🌷🌹🌸</div>
+
+        <p class="description">
+            Thank you for giving me a chance.
+            I hope this is the beginning of something beautiful.
+        </p>
+
+        <h2 class="happy-text">Here's to new beginnings! ❤️</h2>
+
+        <button class="pink-button" id="celebrate">
+            SEND MORE LOVE 💕
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 6: NO -->
+    <section class="page" id="no">
+
+        <div class="teddy">🧸🌷</div>
+
+        <h1 class="script-title">It's okay. ❤️</h1>
+
+        <p class="description">
+            Thank you for being honest with me.
+            I respect your feelings, and I hope you
+            always find happiness.
+        </p>
+
+        <div class="bouquet">🌷🌸🌻</div>
+
+        <button class="pink-button" data-page="home">
+            BACK TO THE GARDEN
+        </button>
+
+    </section>
+
+
+    <script src="/preview.js"></script>
+
+</body>
+</html>

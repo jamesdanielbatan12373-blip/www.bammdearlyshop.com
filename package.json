@@ -1,0 +1,10 @@
+{
+  "name": "dearly-single-confession-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dearly single-product flower confession website with PayMongo GCash checkout",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {}
+}
